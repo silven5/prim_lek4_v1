@@ -1,0 +1,7 @@
+{
+  "name": "prim_lek4_v1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
