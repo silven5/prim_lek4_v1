@@ -1,20 +1,84 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>
+            <h1>Приклади до лекції №4</h1>
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-title size="large">High Cohesion + Low Coupling. Приклад</ion-title>
+
+
+        </ion-card-header>
+        <ion-card-content class="card_body__font">
+            <ion-button (click)="ras_interface()">Перегляд</ion-button>
+
+
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-card-title>Generic</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content class="card_body__font">
+
+            Простий приклад Generic type
+
+
+        </ion-card-content>
+        <ion-button (click)="ras_generic1()">Go</ion-button>
+    </ion-card>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-card-title>Generic</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content class="card_body__font">
+
+            Колекція Generic type
+
+
+        </ion-card-content>
+        <ion-button (click)="ras_generic2()">Go</ion-button>
+    </ion-card>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-card-title>Декоратор методу</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content class="card_body__font">
+
+            Написати декоратор, який буде вести логування дій функції у файл. Функція призначена для обчислення квадрату числа.
+
+        </ion-card-content>
+        <ion-button (click)="ras()">Go</ion-button>
+    </ion-card>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-card-title>Декоратори та класи</ion-card-title>
+        </ion-card-header>
+
+
+        <ion-button (click)="ras_decorator()">Go</ion-button>
+    </ion-card>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-card-title>Декоратори та властивості</ion-card-title>
+        </ion-card-header>
+
+
+        <ion-button (click)="ras_decorator_property()">Go</ion-button>
+    </ion-card>
+    <ion-card>
+        <ion-card-header class="card_title__font">
+            <ion-card-title>Декоратори та параметри</ion-card-title>
+        </ion-card-header>
+
+        <ion-button (click)="ras_decorator_parameters()">Go</ion-button>
+    </ion-card>
 </ion-content>
